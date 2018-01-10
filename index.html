@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mom's Bake</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar3">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand no-padding">
+                    <img class="logo" src="img/Mom'sBakery(1).png" alt="Logo">
+                </a>
+            </div>
+            <div id="navbar3" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+        <!--/.container-fluid -->
+    </nav>
+    <div class="container-fluid no-padding">
+        <div class="row">
+            <div class="col-xs-12 no-padding">
+                <img class="main-background-image"
+                     src="https://scontent-waw1-1.xx.fbcdn.net/v/t31.0-8/19390787_1682723695369421_4299439208820263458_o.jpg?oh=287d7d6ab21d4209df8414545d1adc2c&oe=5ACCD6F7">
+            </div>
+        </div>
+    </div>
+</header>
+<section class="padding-y-20" ng-app="FirstApp">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-md-8">
+                <div class="col-xs-12 col-md-4">
+                    <img class="menu-img" src="img/easter_cakes.jpg" alt="Easter cake">
+                    <div class="overlay">
+                        <div class="text"><a href="#!easter" class="cake-href">Easter Cake</a></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 ">
+                    <img class="menu-img" src="img/Karpatka_with_strawberrys.jpg" alt='Karpatka with strawberry'>
+                    <div class="overlay">
+                        <div class="text"><a href="#!karpatka" class="cake-href">Karpatka with Strawberry</a></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <img class="menu-img" src="img/Birthday_cake.jpg" alt="Birthday cake">
+                    <div class="overlay">
+                        <div class="text"><a href="#!bd_cake" class="cake-href">Birthday Cheesecake</a></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 img-top">
+                    <img class="menu-img" src="img/Cheesecake_with_strawberrys.jpg" alt="Cheesecake with strawberrys">
+                    <div class="overlay">
+                        <div class="text"><a href="#!cheesecake" class="cake-href">Cheesecake with strawberry</a></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 img-top">
+                    <img class="menu-img" src="img/Some_cake_with_choco.jpg" alt="Some cake with chocolate">
+                    <div class="overlay">
+                        <div class="text"><a href="#!choco_cake" class="cake-href">Some cake with chocolate</a></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 img-top">
+                    <img class="menu-img" src="img/Plump_pie.jpg" alt="Plump pie">
+                    <div class="overlay">
+                        <div class="text"><a href="#!plump_cake" class="cake-href">Plump pie</a></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 img-top2">
+                    <img class="menu-img" src="img/Karpatka_with_grapes.jpg" alt="Karpatka with grape">
+                    <div class="overlay">
+                        <div class="text"><a href="#!karp_grape" class="cake-href">Karpatka with grape</a></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 img-top2">
+                    <img class="menu-img" src="img/Cake_with_fruits.jpg" alt="Cake with fruits">
+                    <div class="overlay">
+                        <div class="text"><a href="#!cake_fruits" class="cake-href">Cake with fruits</a></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 img-top2">
+                    <img class="menu-img" src="img/Bird_milk.jpg" alt="Bird milk pie">
+                    <div class="overlay">
+                        <div class="text"><a href="#!bird_milk" class="cake-href">Bird milk pie</a></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 img-top3">
+                    <img class="menu-img" src="img/Strawberrys_karpatka2.jpg" alt="Piece of cake">
+                    <div class="overlay">
+                        <div class="text"><a href="#!piece_cake" class="cake-href">Piece of cake</a></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 img-top3">
+                    <img class="menu-img" src="img/Cheescake_with_berries.jpg" alt="Cheesecake with berries">
+                    <div class="overlay">
+                        <div class="text"><a href="#!cake_berries" class="cake-href">Cheesecake with berries</a></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 img-top3">
+                    <img class="menu-img" src="img/White_cake.jpg" alt="White choco cake">
+                    <div class="overlay">
+                        <div class="text"><a href="#!white_cake" class="cake-href">White choco cake</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" ng-view></div>
+        </div>
+    </div>
+</section>
+<footer id="contact">
+    <div class="container-fluid mt-15 no-padding ">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="my-div-blur-for-map map-local">
+                </div>
+                <iframe class="map-local"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.9704913245628!2d24.006983315296466!3d49.843011979396174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add9dbedc5b75%3A0x8e173961fc5cd9c8!2sOktenWeb+UniversITy!5e0!3m2!1suk!2sua!4v1509642780957"
+                        width="600" height="460" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
+
+
+
+

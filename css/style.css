@@ -1,0 +1,113 @@
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.navbar {
+    width: 100vw;
+}
+
+.logo {
+    width: 8vw;
+}
+
+.main-background-image {
+    width: 100%;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.mt-15 {
+    margin-top: 30px;
+}
+
+.col-md-4 {
+    position: relative;
+    width: 50%;
+}
+
+.col-md-4:hover .overlay {
+    width: 100%;
+    left: 0;
+}
+
+.text {
+    white-space: nowrap;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.menu-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: white;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.img-top {
+    top: 10px;
+}
+
+.img-top2 {
+    top: 20px;
+}
+
+.img-top3 {
+    top: 30px;
+}
+
+.main-color-background {
+    background: #343940;
+}
+
+.padding-y-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.map-local {
+    min-width: 100% !important;
+}
+
+.my-div-blur-for-map {
+    height: 465px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.my-div-blur-for-map:hover{
+    display: none;
+ }
+
+iframe:hover{
+    position: absolute;
+}
+.cake-href {
+    text-decoration: none;
+    color: black;
+}
+
+.cake-href:hover {
+    text-decoration: none;
+    color: black;
+}
